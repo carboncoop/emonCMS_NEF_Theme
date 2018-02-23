@@ -165,6 +165,7 @@ else {
                                 }
                             </style>
                         <?php } ?>
+                        <?php if ($route->action != 'login') { ?><img class="menu-logo" src="<?php echo $path; ?>Theme/nef/logo_login.png" /><?php } ?>
                         <?php
                         echo $mainmenu;
                         ?>
